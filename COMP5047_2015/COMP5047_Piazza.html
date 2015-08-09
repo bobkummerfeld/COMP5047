@@ -22,6 +22,9 @@
 .list-group{
 	width: 100px;
 }
+.list-group-item.active{
+	background-color: yellow;
+}
 .bs-example{
    	margin: 20px;
 }
@@ -80,7 +83,7 @@ body {
 	border-left:   1px solid #ffffff;
 	padding: 0px 5px 2px 5px;
 	font-size: 120%; font-weight: bold;
-	color: #39628b;
+	color: black;
 }
 .cellbody {
 	background-color: #fff;
@@ -158,14 +161,14 @@ button.darkblue {
 }
 
 table.role { margin: 2px; font-size: 90%; font-weight: bold; background-color: #39628b; }
-td.role { text-align: center; font-size: 100%; font-weight: bold; color: #fff; }
+td.role { text-align: center; font-size: 100%; font-weight: bold; color: black; }
 td img.decor { display: block; }
 
 a.external { text-decoration: none; }
-a.external:link { color: #fff }
-a.external:visited { color: #fff }
-a.external:hover { color: #ffc }
-a.external:active { color: #ffc }
+a.external:link { color: black }
+a.external:visited { color: black }
+a.external:hover { color: black }
+a.external:active { color: black }
 
 span.edit { float: right; }
 a.edit { text-decoration: none; color: #dcb; }
@@ -212,7 +215,30 @@ $( document ).tooltip();
 <tr><td width="100%" style="position:fixed;  top:0px;left:0px;  z-index:10" id="bannercell" class="columndata">
 
 <!-- Cell START -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" class="role" style="background:#12416C;">
+<!--
+<div class="topNavItems">
+        <div>
+            <a href="http://sydney.edu.au/library/">
+                Library
+            </a>
+        </div>
+    
+        <div>
+            <a href="https://myuni.sydney.edu.au/">
+                MyUni
+            </a>
+        </div>
+    
+        <div>
+            <a href="https://intranet.sydney.edu.au">
+                Staff intranet
+            </a>
+        </div>
+    
+</div>
+-->
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="role" style="background:white;">
   <tr> 
     <td colspan="3">
       <img src="Images/pix.gif" width="1" height="1" alt="" hspace="275" vspace="0" class="decor">
@@ -221,7 +247,7 @@ $( document ).tooltip();
   <tr> 
     <td>
       <a href="http://www.usyd.edu.au">
-        <img src="Images/university_sydney_logo.gif" width="200" height="80" alt="link to University of Sydney Web
+        <img src="Images/new_university_sydney_logo.svg" width="200" height="80" alt="link to University of Sydney Web
 	Page"  border="0" class="decor">
       </a>
     </td>
@@ -294,7 +320,7 @@ function gothere(where)
 		</a>
 		
 
-		<a href="javascript: gothere('Piazza');" class="list-group-item active">
+		<a href="javascript: gothere('Piazza');" class="list-group-item ">
 			Piazza
 		</a>
 		
@@ -373,7 +399,7 @@ link to Piazza web site
 <tr>
     <td width="91%"></td>
     <td valign=bottom>
-	<span style="font-family: helvetica,arial,sans-serif;font-size: 60%;">Last changed: Mon Jul 27 17:48:08 2015</span></td>
+	<span style="font-family: helvetica,arial,sans-serif;font-size: 60%;">Last changed: Sun Aug  9 22:09:47 2015</span></td>
 </tr></table>
 
 

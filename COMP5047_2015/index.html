@@ -22,6 +22,9 @@
 .list-group{
 	width: 100px;
 }
+.list-group-item.active{
+	background-color: yellow;
+}
 .bs-example{
    	margin: 20px;
 }
@@ -80,7 +83,7 @@ body {
 	border-left:   1px solid #ffffff;
 	padding: 0px 5px 2px 5px;
 	font-size: 120%; font-weight: bold;
-	color: #39628b;
+	color: black;
 }
 .cellbody {
 	background-color: #fff;
@@ -158,14 +161,14 @@ button.darkblue {
 }
 
 table.role { margin: 2px; font-size: 90%; font-weight: bold; background-color: #39628b; }
-td.role { text-align: center; font-size: 100%; font-weight: bold; color: #fff; }
+td.role { text-align: center; font-size: 100%; font-weight: bold; color: black; }
 td img.decor { display: block; }
 
 a.external { text-decoration: none; }
-a.external:link { color: #fff }
-a.external:visited { color: #fff }
-a.external:hover { color: #ffc }
-a.external:active { color: #ffc }
+a.external:link { color: black }
+a.external:visited { color: black }
+a.external:hover { color: black }
+a.external:active { color: black }
 
 span.edit { float: right; }
 a.edit { text-decoration: none; color: #dcb; }
@@ -212,7 +215,30 @@ $( document ).tooltip();
 <tr><td width="100%" style="position:fixed;  top:0px;left:0px;  z-index:10" id="bannercell" class="columndata">
 
 <!-- Cell START -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" class="role" style="background:#12416C;">
+<!--
+<div class="topNavItems">
+        <div>
+            <a href="http://sydney.edu.au/library/">
+                Library
+            </a>
+        </div>
+    
+        <div>
+            <a href="https://myuni.sydney.edu.au/">
+                MyUni
+            </a>
+        </div>
+    
+        <div>
+            <a href="https://intranet.sydney.edu.au">
+                Staff intranet
+            </a>
+        </div>
+    
+</div>
+-->
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="role" style="background:white;">
   <tr> 
     <td colspan="3">
       <img src="Images/pix.gif" width="1" height="1" alt="" hspace="275" vspace="0" class="decor">
@@ -221,7 +247,7 @@ $( document ).tooltip();
   <tr> 
     <td>
       <a href="http://www.usyd.edu.au">
-        <img src="Images/university_sydney_logo.gif" width="200" height="80" alt="link to University of Sydney Web
+        <img src="Images/new_university_sydney_logo.svg" width="200" height="80" alt="link to University of Sydney Web
 	Page"  border="0" class="decor">
       </a>
     </td>
@@ -284,7 +310,7 @@ function gothere(where)
     <div class="list-group" style="width:110px;">
 
 
-		<a href="javascript: gothere('Home');" class="list-group-item active">
+		<a href="javascript: gothere('Home');" class="list-group-item ">
 			Home
 		</a>
 		
@@ -440,7 +466,8 @@ Please mail Bob.Kummerfeld@sydney.edu.au for an appointment.
 <tr> 
 	<th width="5%">Wk</th> 
 	<th width="30%">Reading</th> 
-	<th width="50%">Lecture </th>
+	<th width="30%">Lecture </th>
+	<th width="30%">Practical </th>
 </tr>
 <tr> 
 	<td valign=top>1 </td>
@@ -450,71 +477,85 @@ Please mail Bob.Kummerfeld@sydney.edu.au for an appointment.
 	The Computer for the 21st Century
 	</a></td> 
 	<td>Overview and Introduction</td>
+	<td> </td>
 </tr>
 <tr> 
 	<td valign=top>2 </td>
 	<td>&#8210</td> 
-	<td> </td>
+	<td>The Internet of Things</td>
+	<td>Introduction to Arduino</td>
 </tr>
 <tr> 
 	<td valign=top>3 </td>
 	<td>&#8210</td> 
-	<td> </td>
+	<td>The Internet of Things: technology</td>
+	<td>Introduction to project and more arduino programming.</td>
 </tr>
 <tr> 
 	<td valign=top>4 </td>
-	<td>&#8210</td> 
+	<td>Social stairs: taking the piano staircase towards long-term behavioral change (see <a href="https://www.dropbox.com/sh/3awxqie0ufoxela/AABELtMKvXDG6AiBulcmRUtfa?dl=0">readings</a>)</td> 
+	<td> </td>
 	<td> </td>
 </tr>
 <tr> 
 	<td valign=top>5 </td>
 	<td>&#8210</td> 
 	<td></td>
+	<td> </td>
 </tr>
 <tr> 
 	<td valign=top>6 </td>
 	<td>&#8210</td> 
+	<td> </td>
 	<td> </td>
 </tr>
 <tr> 
 	<td valign=top>7 </td>
 	<td>&#8210</td> 
 	<td>Mid-semester quiz</td>
+	<td> </td>
 </tr>
 <tr> 
 	<td valign=top>8 </td>
 	<td>&#8210</td> 
+	<td> </td>
 	<td> </td>
 </tr>
 <tr> 
 	<td valign=top>9 </td>
 	<td>&#8210</td> 
 	<td></td>
+	<td> </td>
 </tr>
 <tr style="background-color:lightyellow;"> 
 	<td valign=top>&nbsp; </td>
 	<td>Semester Break</td>
 	<td>&nbsp;</td> 
+	<td> </td>
 </tr>
 <tr> 
 	<td valign=top>10 </td>
 	<td>&#8210</td> 
+	<td> </td>
 	<td> </td>
 </tr>
 <tr> 
 	<td valign=top>11 </td>
 	<td>&#8210</td> 
 	<td> </td>
+	<td> </td>
 </tr>
 <tr> 
 	<td valign=top>12 </td>
 	<td>&#8210</td> 
 	<td> Project Presentations  </td> 
+	<td> </td>
 </tr>
 <tr> 
 	<td valign=top>13 </td>
 	<td>&#8210</td> 
 	<td>Project Presentations </td>
+	<td> </td>
 </tr>
 </table>
 </div>
@@ -537,7 +578,7 @@ Please mail Bob.Kummerfeld@sydney.edu.au for an appointment.
 <tr>
     <td width="91%"></td>
     <td valign=bottom>
-	<span style="font-family: helvetica,arial,sans-serif;font-size: 60%;">Last changed: Wed Jul 29 10:26:50 2015</span></td>
+	<span style="font-family: helvetica,arial,sans-serif;font-size: 60%;">Last changed: Sun Aug  9 22:07:32 2015</span></td>
 </tr></table>
 
 
@@ -562,5 +603,5 @@ mKyn91QRjXHOMfMg7zARDfcsDWc4faVrS9jAle3qgxntb+kN/vGFkIjMAnUAAAAASUVORK5CYII=
 
 </tr></table>
 
-<!-- Completed in 0.07 cpu / 0.24 wall seconds. -->
+<!-- Completed in 0.07 cpu / 0.05 wall seconds. -->
 </body></html>
