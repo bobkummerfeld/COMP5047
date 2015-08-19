@@ -22,9 +22,6 @@
 .list-group{
 	width: 100px;
 }
-.list-group-item.active{
-	background-color: yellow;
-}
 .bs-example{
    	margin: 20px;
 }
@@ -310,22 +307,22 @@ function gothere(where)
     <div class="list-group" style="width:110px;">
 
 
-		<a href="javascript: gothere('Home');" class="list-group-item ">
+		<a style="background-color:white;" href="javascript: gothere('Home');" class="list-group-item ">
 			Home
 		</a>
 		
 
-		<a href="javascript: gothere('Assess');" class="list-group-item ">
+		<a style="background-color:white;" href="javascript: gothere('Assess');" class="list-group-item ">
 			Assess
 		</a>
 		
 
-		<a href="javascript: gothere('Piazza');" class="list-group-item ">
+		<a style="background-color:white;" href="javascript: gothere('Piazza');" class="list-group-item ">
 			Piazza
 		</a>
 		
 
-		<a href="javascript: gothere('Resources');" class="list-group-item ">
+		<a style="background-color:lightgray;" href="javascript: gothere('Resources');" class="list-group-item ">
 			Resources
 		</a>
 		
@@ -390,6 +387,16 @@ Amazon Buttons</a><br/>
 <a href="http://www.amazon.com/Amazon-SK705DI-Echo/dp/B00X4WHP5E">Amazon Echo</a><br/>
 <a href="https://developer.amazon.com/public/community/post/Tx2SQ0B11SGLKOI/Alexa-Voice-Service-Now-Available-in-Developer-Preview">Amazon Alexa Voice Service</a><br/>
 
+<P>
+<a href="http://mqtt.org/">MQTT message passing and publish/subscribe system</a>: see 
+<a href="http://en.wikipedia.org/wiki/MQTT">wikipedia entry</a> for details.
+<p>
+<a href="https://thingspeak.com/">Thingspeak</a>: a system that allows storage, retrieval and display of data from IoT devices.
+<p>
+<a href="http://netio.davideickhoff.de/en/">NetIO</a>: a smartphone app that acts as a generic control for IoT applications.
+<p>
+<a href="http://nodered.org/">NodeRED</a>: a tool for connecting IoT devices.
+<p>
 
 
 <p/>
@@ -506,6 +513,42 @@ You then need to demonstrate your program to the tutor and show them the source 
 <!-- Cell END -->
 
 </td></tr>
+<tr><td class="columndata">
+
+<!-- Cell START -->
+<table cellpadding="0" width="100%" cellspacing="0" border="0" class="cell">
+<tr><td align=left class="cellbanner">
+ <div id="TIPreport1"><img id="IMGreport1"  onclick="javascript: expandCollapse('report1');" title="expand/collapse">&nbsp;&nbsp;Project Report 1 </div>
+        <script> var elt = document.getElementById("IMG"+"report1"); elt.src = cell_long; $("#TIPreport1 img[title]").tooltip(); </script> 
+</td></tr><tr><td class="cellbody">
+<div id="report1" style="display: none;">
+<h2>Project Initial Report </h2>
+
+The initial report on the project is a design and specification.  
+<p>
+It should include:
+<ul>
+<li>Introduction and overview of the problem you aim to solve (1 page max)
+<li>Discussion of a small set of possible solutions (1-2 pages max)
+<li>Brief description of your proposed solution (1-2 page max)
+<li>Architecture diagram: show the main hardware and software components and how they connect (1 page)
+<li>List of components required (hardware)
+<li>List of components required (software)
+<li>List of specialised components and processes (eg "bluebean board", 3D printed case, need access to foyer screen)
+<li>Timeline of implementation
+<li>Job assignment (who is doing what in the group)
+<li>Any other special requirement, notes or explanations you feel would make the solution clearer
+</ul>
+<p>
+In addition, your group should nominate someone to speak for 3 mins max about your solution in week 5.
+<p/>
+Please make a pdf file of your report. Call the file "GROUPNAME-initialreport.pdf" and email (attachment) it to 
+bob.kummerfeld+comp5047@gmail.com by 4pm 26th August 2015 (ie start of next lecture).
+</div>
+</td></tr></table>
+<!-- Cell END -->
+
+</td></tr>
 </table></td>
 <!-- Column 3 END -->
 
@@ -521,7 +564,7 @@ You then need to demonstrate your program to the tutor and show them the source 
 <tr>
     <td width="91%"></td>
     <td valign=bottom>
-	<span style="font-family: helvetica,arial,sans-serif;font-size: 60%;">Last changed: Mon Aug 10 13:26:27 2015</span></td>
+	<span style="font-family: helvetica,arial,sans-serif;font-size: 60%;">Last changed: Wed Aug 19 15:27:50 2015</span></td>
 </tr></table>
 
 
@@ -546,5 +589,5 @@ mKyn91QRjXHOMfMg7zARDfcsDWc4faVrS9jAle3qgxntb+kN/vGFkIjMAnUAAAAASUVORK5CYII=
 
 </tr></table>
 
-<!-- Completed in 0.08 cpu / 0.06 wall seconds. -->
+<!-- Completed in 0.07 cpu / 0.09 wall seconds. -->
 </body></html>
