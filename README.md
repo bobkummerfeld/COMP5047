@@ -1,2 +1,2 @@
 # COMP5047
-Pervasive Computing
+Pervasive Computing static web pages
