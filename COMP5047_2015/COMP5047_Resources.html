@@ -1,5 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html><head><title>COMP5047 Home</title>
+<html><head><title>COMP5047 Resources</title>
 <base href="http://bobkummerfeld.github.io/COMP5047/index.html">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -21,9 +21,6 @@
 <style type="text/css">
 .list-group{
 	width: 100px;
-}
-.list-group-item.active{
-	background-color: yellow;
 }
 .bs-example{
    	margin: 20px;
@@ -310,22 +307,22 @@ function gothere(where)
     <div class="list-group" style="width:110px;">
 
 
-		<a href="javascript: gothere('Home');" class="list-group-item ">
+		<a style="background-color:white;" href="javascript: gothere('Home');" class="list-group-item ">
 			Home
 		</a>
 		
 
-		<a href="javascript: gothere('Assess');" class="list-group-item ">
+		<a style="background-color:white;" href="javascript: gothere('Assess');" class="list-group-item ">
 			Assess
 		</a>
 		
 
-		<a href="javascript: gothere('Piazza');" class="list-group-item ">
+		<a style="background-color:white;" href="javascript: gothere('Piazza');" class="list-group-item ">
 			Piazza
 		</a>
 		
 
-		<a href="javascript: gothere('Resources');" class="list-group-item ">
+		<a style="background-color:lightgray;" href="javascript: gothere('Resources');" class="list-group-item ">
 			Resources
 		</a>
 		
@@ -361,9 +358,11 @@ function gothere(where)
 <table cellpadding="0" width="100%" cellspacing="0" border="0" class="cell">
 <tr><td align=left class="cellbanner">
 </td></tr><tr><td class="cellbody">
-<h1>
-COMP5047 Pervasive Computing - Semester 2, 2015
-</h1>
+<h1>Introduction</h1>
+Since this is a new area, developing fast, there is no text book that covers all aspects. 
+Instead I will post links to information on this page.
+<h1> Web Resources </h1>
+Links to useful information will be posted here.
 </td></tr></table>
 <!-- Cell END -->
 
@@ -373,80 +372,33 @@ COMP5047 Pervasive Computing - Semester 2, 2015
 <!-- Cell START -->
 <table cellpadding="0" width="100%" cellspacing="0" border="0" class="cell">
 <tr><td align=left class="cellbanner">
+ <div id="TIPdevices"><img id="IMGdevices"  onclick="javascript: expandCollapse('devices');" title="expand/collapse">&nbsp;&nbsp;Devices </div>
+        <script> var elt = document.getElementById("IMG"+"devices"); elt.src = cell_long; $("#TIPdevices img[title]").tooltip(); </script> 
 </td></tr><tr><td class="cellbody">
-Welcome to the Pervasive Computing course for 2015.
-</td></tr></table>
-<!-- Cell END -->
-
-</td></tr>
-<tr><td class="columndata">
-
-<!-- Cell START -->
-<table cellpadding="0" width="100%" cellspacing="0" border="0" class="cell">
-<tr><td align=left class="cellbanner">
- <div id="TIPcourseoutline"><img id="IMGcourseoutline"  onclick="javascript: expandCollapse('courseoutline');" title="expand/collapse">&nbsp;&nbsp;Formal Course Outline </div>
-        <script> var elt = document.getElementById("IMG"+"courseoutline"); elt.src = cell_long; $("#TIPcourseoutline img[title]").tooltip(); </script> 
-</td></tr><tr><td class="cellbody">
-<div id="courseoutline" style="display: none;">
-The formal unit of study outline and important information
-about relevant University policies on academic honesty,
-assessment, special arrangements is the link:
-<br/>
-<a class="non" href="http://cusp.eng.usyd.edu.au/students/view-unit-page/alpha/comp5047">
-CUSP - Course and Unit of Study description and course outline.</a>
-(Click the link then "Download UoS Outline".)
-</div>
-</td></tr></table>
-<!-- Cell END -->
-
-</td></tr>
-<tr><td class="columndata">
-
-<!-- Cell START -->
-<table cellpadding="0" width="100%" cellspacing="0" border="0" class="cell">
-<tr><td align=left class="cellbanner">
- <div id="TIPlecturers"><img id="IMGlecturers"  onclick="javascript: expandCollapse('lecturers');" title="expand/collapse">&nbsp;&nbsp;Teaching staff </div>
-        <script> var elt = document.getElementById("IMG"+"lecturers"); elt.src = cell_long; $("#TIPlecturers img[title]").tooltip(); </script> 
-</td></tr><tr><td class="cellbody">
-<div id="lecturers" style="display: none;">
-<b>Lecturers</b>:  <br/>
-<a class="non" href="http://www.cs.usyd.edu.au/~bob/">Associate Professor Bob Kummerfeld (course coordinator)</a><br/>
-email: bob.kummerfeld at sydney.edu.au <br/>
-
+<div id="devices" style="display: none;">
+<b>Devices</b>
 <p/>
-<a class="non" href="http://www.cs.usyd.edu.au/~judy/">Professor Judy Kay</a>
-<br/>
-email: Judy.Kay at sydney.edu.au <br/>
-<br/>
-<b>Tutor:</b><br/>
-Ransalu Senanayake 
-<br/>
-email: rsen4557@uni.sydney.edu.au 
-<br/>
-</div>
-</td></tr></table>
-<!-- Cell END -->
+<a href="http://www.ambientdevices.com/">Ambient Devices</a><br/>
+<a href="http://www.orbnext.com/">Orb Next</a><br/>
+<a href="http://www.theverge.com/2015/3/31/8316775/amazon-dash-buttons-turn-homes-into-shopping-carts">
+Amazon Buttons</a><br/>
+<a href="http://www.eatprompt.com/">Eat Prompt</a><br/>
+<a href="http://www.density.io/">People counter</a><br/>
+<a href="http://www.amazon.com/Amazon-SK705DI-Echo/dp/B00X4WHP5E">Amazon Echo</a><br/>
+<a href="https://developer.amazon.com/public/community/post/Tx2SQ0B11SGLKOI/Alexa-Voice-Service-Now-Available-in-Developer-Preview">Amazon Alexa Voice Service</a><br/>
 
-</td></tr>
-<tr><td class="columndata">
+<P>
+<a href="http://mqtt.org/">MQTT message passing and publish/subscribe system</a>: see 
+<a href="http://en.wikipedia.org/wiki/MQTT">wikipedia entry</a> for details.
+<p>
+<a href="https://thingspeak.com/">Thingspeak</a>: a system that allows storage, retrieval and display of data from IoT devices.
+<p>
+<a href="http://netio.davideickhoff.de/en/">NetIO</a>: a smartphone app that acts as a generic control for IoT applications.
+<p>
+<a href="http://nodered.org/">NodeRED</a>: a tool for connecting IoT devices.
+<p>
 
-<!-- Cell START -->
-<table cellpadding="0" width="100%" cellspacing="0" border="0" class="cell">
-<tr><td align=left class="cellbanner">
- <div id="TIPtimes"><img id="IMGtimes"  onclick="javascript: expandCollapse('times');" title="expand/collapse">&nbsp;&nbsp;Class times and places </div>
-        <script> var elt = document.getElementById("IMG"+"times"); elt.src = cell_long; $("#TIPtimes img[title]").tooltip(); </script> 
-</td></tr><tr><td class="cellbody">
-<div id="times" style="display: none;">
-<b>Lectures and Lab</b>:  <br/>
-4pm - 7pm Wednesday, 
-<a class="non" href="https://web.timetable.usyd.edu.au/venuebookings/venueDetails.jsp?venueId=87">
-Mechanical Engineering Tutorial Room 1 </a>
-<p/>
-<br/>
-<b>Consultations</b><br/>
-<br/>
-Please mail Bob.Kummerfeld@sydney.edu.au for an appointment.
-<br/>
+
 <p/>
 </div>
 </td></tr></table>
@@ -458,106 +410,140 @@ Please mail Bob.Kummerfeld@sydney.edu.au for an appointment.
 <!-- Cell START -->
 <table cellpadding="0" width="100%" cellspacing="0" border="0" class="cell">
 <tr><td align=left class="cellbanner">
- <div id="TIPlectures"><img id="IMGlectures"  onclick="javascript: expandCollapse('lectures');" title="expand/collapse">&nbsp;&nbsp;Schedule </div>
+ <div id="TIParduino"><img id="IMGarduino"  onclick="javascript: expandCollapse('arduino');" title="expand/collapse">&nbsp;&nbsp;Arduino Resources </div>
+        <script> var elt = document.getElementById("IMG"+"arduino"); elt.src = cell_long; $("#TIParduino img[title]").tooltip(); </script> 
+</td></tr><tr><td class="cellbody">
+<div id="arduino" style="display: none;">
+<b>Arduino Tutorials</b>:  <br/>
+<a href="https://www.arduino.cc/en/Tutorial/HomePage"> https://www.arduino.cc/en/Tutorial/HomePage</a>
+<br/>
+<a href="http://www.ladyada.net/learn/arduino/"> http://www.ladyada.net/learn/arduino/ </a>
+<br/>
+<a href="http://tronixstuff.com/tutorials/">http://tronixstuff.com/tutorials/</a>
+
+
+
+<p/>
+</div>
+</td></tr></table>
+<!-- Cell END -->
+
+</td></tr>
+<tr><td class="columndata">
+
+<!-- Cell START -->
+<table cellpadding="0" width="100%" cellspacing="0" border="0" class="cell">
+<tr><td align=left class="cellbanner">
+ <div id="TIPresearch"><img id="IMGresearch"  onclick="javascript: expandCollapse('research');" title="expand/collapse">&nbsp;&nbsp;Research  </div>
+        <script> var elt = document.getElementById("IMG"+"research"); elt.src = cell_long; $("#TIPresearch img[title]").tooltip(); </script> 
+</td></tr><tr><td class="cellbody">
+<div id="research" style="display: none;">
+<b>Research</b>:  <br/>
+<a href="https://goo.gl/8NNR2X"> Situated Ambient Logger (SAL) video </a>
+<br/>
+<a href="http://www.cruiserinteractive.com.au/home">Tabletop and Walls</a>
+
+
+
+<p/>
+</div>
+</td></tr></table>
+<!-- Cell END -->
+
+</td></tr>
+<tr><td class="columndata">
+
+<!-- Cell START -->
+<table cellpadding="0" width="100%" cellspacing="0" border="0" class="cell">
+<tr><td align=left class="cellbanner">
+</td></tr><tr><td class="cellbody">
+<h1>Lectures, Notes and Assignments</h1>
+
+<p/>
+</td></tr></table>
+<!-- Cell END -->
+
+</td></tr>
+<tr><td class="columndata">
+
+<!-- Cell START -->
+<table cellpadding="0" width="100%" cellspacing="0" border="0" class="cell">
+<tr><td align=left class="cellbanner">
+ <div id="TIPlectures"><img id="IMGlectures"  onclick="javascript: expandCollapse('lectures');" title="expand/collapse">&nbsp;&nbsp;Lectures </div>
         <script> var elt = document.getElementById("IMG"+"lectures"); elt.src = cell_long; $("#TIPlectures img[title]").tooltip(); </script> 
 </td></tr><tr><td class="cellbody">
 <div id="lectures" style="display: none;">
-<table >
-<tr> 
-	<th width="5%">Wk</th> 
-	<th width="30%">Reading</th> 
-	<th width="30%">Lecture </th>
-	<th width="30%">Practical </th>
-</tr>
-<tr> 
-	<td valign=top>1 </td>
-	<td>
-	<a class="non" href="http://doi.acm.org.ezproxy2.library.usyd.edu.au/10.1145/329124.329126">
-	Weiser (1991)  <br/>
-	The Computer for the 21st Century
-	</a></td> 
-	<td>Overview and Introduction</td>
-	<td> </td>
-</tr>
-<tr> 
-	<td valign=top>2 </td>
-	<td>&#8210</td> 
-	<td>The Internet of Things</td>
-	<td>Introduction to Arduino</td>
-</tr>
-<tr> 
-	<td valign=top>3 </td>
-	<td>&#8210</td> 
-	<td>The Internet of Things: technology</td>
-	<td>Introduction to project and more arduino programming.</td>
-</tr>
-<tr> 
-	<td valign=top>4 </td>
-	<td>Social stairs: taking the piano staircase towards long-term behavioral change (see <a href="https://www.dropbox.com/sh/3awxqie0ufoxela/AABELtMKvXDG6AiBulcmRUtfa?dl=0">readings</a>)</td> 
-	<td> </td>
-	<td> </td>
-</tr>
-<tr> 
-	<td valign=top>5 </td>
-	<td>&#8210</td> 
-	<td></td>
-	<td> </td>
-</tr>
-<tr> 
-	<td valign=top>6 </td>
-	<td>&#8210</td> 
-	<td> </td>
-	<td> </td>
-</tr>
-<tr> 
-	<td valign=top>7 </td>
-	<td>&#8210</td> 
-	<td>Mid-semester quiz</td>
-	<td> </td>
-</tr>
-<tr> 
-	<td valign=top>8 </td>
-	<td>&#8210</td> 
-	<td> </td>
-	<td> </td>
-</tr>
-<tr> 
-	<td valign=top>9 </td>
-	<td>&#8210</td> 
-	<td></td>
-	<td> </td>
-</tr>
-<tr style="background-color:lightyellow;"> 
-	<td valign=top>&nbsp; </td>
-	<td>Semester Break</td>
-	<td>&nbsp;</td> 
-	<td> </td>
-</tr>
-<tr> 
-	<td valign=top>10 </td>
-	<td>&#8210</td> 
-	<td> </td>
-	<td> </td>
-</tr>
-<tr> 
-	<td valign=top>11 </td>
-	<td>&#8210</td> 
-	<td> </td>
-	<td> </td>
-</tr>
-<tr> 
-	<td valign=top>12 </td>
-	<td>&#8210</td> 
-	<td> Project Presentations  </td> 
-	<td> </td>
-</tr>
-<tr> 
-	<td valign=top>13 </td>
-	<td>&#8210</td> 
-	<td>Project Presentations </td>
-	<td> </td>
-</tr>
-</table>
+<a href="https://www.dropbox.com/sh/6nhyks0cf324a9s/AABq27UiajMEFArZxHg7bw0Qa?dl=0">Lectures</a>
+
+<p/>
+</div>
+</td></tr></table>
+<!-- Cell END -->
+
+</td></tr>
+<tr><td class="columndata">
+
+<!-- Cell START -->
+<table cellpadding="0" width="100%" cellspacing="0" border="0" class="cell">
+<tr><td align=left class="cellbanner">
+ <div id="TIPassignments"><img id="IMGassignments"  onclick="javascript: expandCollapse('assignments');" title="expand/collapse">&nbsp;&nbsp;Assignments </div>
+        <script> var elt = document.getElementById("IMG"+"assignments"); elt.src = cell_long; $("#TIPassignments img[title]").tooltip(); </script> 
+</td></tr><tr><td class="cellbody">
+<div id="assignments" style="display: none;">
+<h2>Arduino Assignment (due week 4)</h2>
+
+The first assignment is designed to ensure that everyone in the class has a basic knowledge of the Arduino hardware, programming language and development environment.
+<p>
+The Arduino kits contain a light sensor and LEDs.  Your task is to develop code to run on the arduino that will monitor the light level and turn on an LED when the light level gets below a specified value.
+<p>
+To do this assignment you will need to:
+<ul>
+<li> download and install the Arduino development environment on your laptop</li>
+<li>setup the hardware so the arduino can monitor the light level using the light sensor and control an LED</li>
+<li>write an arduino program to do the task</li>
+<li>download the program to the arduino and test it</li>
+</ul>
+<p>
+You then need to demonstrate your program to the tutor and show them the source code, then email the source code to “bob.kummerfeld+comp5047@gmail.com”.
+
+
+<p/>
+</div>
+</td></tr></table>
+<!-- Cell END -->
+
+</td></tr>
+<tr><td class="columndata">
+
+<!-- Cell START -->
+<table cellpadding="0" width="100%" cellspacing="0" border="0" class="cell">
+<tr><td align=left class="cellbanner">
+ <div id="TIPreport1"><img id="IMGreport1"  onclick="javascript: expandCollapse('report1');" title="expand/collapse">&nbsp;&nbsp;Project Report 1 </div>
+        <script> var elt = document.getElementById("IMG"+"report1"); elt.src = cell_long; $("#TIPreport1 img[title]").tooltip(); </script> 
+</td></tr><tr><td class="cellbody">
+<div id="report1" style="display: none;">
+<h2>Project Initial Report </h2>
+
+The initial report on the project is a design and specification.  
+<p>
+It should include:
+<ul>
+<li>Introduction and overview of the problem you aim to solve (1 page max)
+<li>Discussion of a small set of possible solutions (1-2 pages max)
+<li>Brief description of your proposed solution (1-2 page max)
+<li>Architecture diagram: show the main hardware and software components and how they connect (1 page)
+<li>List of components required (hardware)
+<li>List of components required (software)
+<li>List of specialised components and processes (eg "bluebean board", 3D printed case, need access to foyer screen)
+<li>Timeline of implementation
+<li>Job assignment (who is doing what in the group)
+<li>Any other special requirement, notes or explanations you feel would make the solution clearer
+</ul>
+<p>
+In addition, your group should nominate someone to speak for 3 mins max about your solution in week 5.
+<p/>
+Please make a pdf file of your report. Call the file "GROUPNAME-initialreport.pdf" and email (attachment) it to 
+bob.kummerfeld+comp5047@gmail.com by 4pm 26th August 2015 (ie start of next lecture).
 </div>
 </td></tr></table>
 <!-- Cell END -->
@@ -578,7 +564,7 @@ Please mail Bob.Kummerfeld@sydney.edu.au for an appointment.
 <tr>
     <td width="91%"></td>
     <td valign=bottom>
-	<span style="font-family: helvetica,arial,sans-serif;font-size: 60%;">Last changed: Mon Aug 10 13:26:13 2015</span></td>
+	<span style="font-family: helvetica,arial,sans-serif;font-size: 60%;">Last changed: Wed Aug 19 15:27:50 2015</span></td>
 </tr></table>
 
 
@@ -603,5 +589,5 @@ mKyn91QRjXHOMfMg7zARDfcsDWc4faVrS9jAle3qgxntb+kN/vGFkIjMAnUAAAAASUVORK5CYII=
 
 </tr></table>
 
-<!-- Completed in 0.08 cpu / 0.13 wall seconds. -->
+<!-- Completed in 0.07 cpu / 0.09 wall seconds. -->
 </body></html>
